@@ -1,0 +1,39 @@
+.web {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+.web-option {
+  font-size: 1rem;
+  margin-right: 1rem;
+  font-weight: bold;
+}
+.web-option:last-child{
+    margin-right: 0;
+}
+
+.web-option a {
+  text-decoration: none;
+  color: #4070f4;
+  display: flex;
+  align-items: center;
+}
+
+.web-icon {
+  display: flex;
+  align-items: center;
+  color: #4070f4;
+  margin-right: 3px;
+  font-size: 1.5rem;
+}
+
+.mode{
+  display: flex;
+  background-color: #4070f45c;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2px;
+  height: 30px;
+  width: 30px;
+}

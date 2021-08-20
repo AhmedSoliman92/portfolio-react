@@ -1,0 +1,45 @@
+.mobile {
+    height: 100vh;
+    width: 60vw;
+    position: absolute;
+    right: -40px;
+    top: -9px;
+    padding: 18px 12px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+}
+ .close-icon{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+    margin-right: 2.5rem;
+    transform: translateY(-5px);
+}
+.mobile-options {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.option {
+    font-size: 1rem;
+    margin: 1rem;
+    font-weight: bold;
+  }
+  .option a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .mobile-icon {
+    display: flex;
+    align-items: center;
+    margin-right: 3px;
+    font-size: 1.3rem;
+  }
+  
